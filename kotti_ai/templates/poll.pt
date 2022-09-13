@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      metal:use-macro="api.macro('kotti:templates/view/master.pt')">
+
+  <article metal:fill-slot="content" class="poll-view content">
+    <h1>${context.title}</h1>
+    <ul>
+	<li tal:repeat="choice choices">
+  <a href="${request.resource_url(choice)}vote">
+    ${choice.title}
+  </a> (${choice.votes}/${all_votes})
+</li>
+    </ul>
+  </article>
+
+</html>
+
+

@@ -1,0 +1,11 @@
+<tal:menu i18n:domain="kotti_ai">
+    <li class="divider"></li>
+    <li role="presentation" class="dropdown-header" i18n:translate="">
+        My own actions
+    </li>
+    <li>
+        <a i18n:translate="" href="${request.resource_url(context, 'view')}">
+            View title here
+        </a>
+    </li>
+</tal:menu>
