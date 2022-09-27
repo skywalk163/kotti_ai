@@ -5,6 +5,12 @@ kotti_ai是AI+互联网企业级应用软件包，通过web技术，将基于飞
 
 当前飞桨Paddle Serving框架部分已经调通， MindSpore Hub 部分已调通，MindSpore Serving 还没测试。
 
+项目AIStudio手册：https://aistudio.baidu.com/aistudio/projectdetail/252773
+
+项目demo展示：http://airoot.org:5000/
+
+项目代码仓库：https://git.openi.org.cn/skywalk163/kotti_ai
+
 ## kotti_ai的特点：
 易部署
 
@@ -47,7 +53,7 @@ MindSpore Lite 支持的硬件种类多，支持安卓和CPU，但CPU下示例�
 kotti_ai目标是通过Serving提供企业级推理服务，有良好的终端用户界面。目前看需要昇腾芯片硬件的支持。
 
 # 项目展示
-本项目以pp-shitu模型为例，已经在移动云测试主机：http://ww3.airoot.org:6543/ 进行部署展示，预计展示时间到2022.11月停止。 在此感谢移动云苏州区的大力支持！
+本项目以pp-shitu模型为例，已经在移动云测试主机：http://airoot.org:5000/  进行部署展示，预计展示时间到2022.11月停止。 在此感谢移动云苏州区的大力支持！
 
 大家可以点击上面的网址，使用账户admin密码qwerty登录。登录之后可以选择菜单：add-AImage上传图片，图片上传后就会进行分类识别，打印出类似这样的识别结果：[{'bbox': [345, 95, 524, 585], 'rec_docs': '红牛-强化型', 'rec_scores': 0.8073724}]
 
@@ -97,6 +103,7 @@ ps：大家也可以学习下Kotti和Pyramid框架，他们都相当优秀。
 ## 5、浏览器测试
 打开浏览器，默认是5000端口 http://127.0.0.1:5000
 
+大家可以从这个demo使用一下：http://airoot.org:5000/ 
 
 项目安装流程在AIStudio有展示，见链接：https://aistudio.baidu.com/aistudio/projectdetail/252773
 
